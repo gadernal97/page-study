@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    background:url('../img/pang-yuhao-_kd5cxwZOK4-unsplash.jpg');
+    background-attachment:fixed;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+
+}
+header h1{
+    color:white;
+}
+header h4{
+    color:gray;
+}
+.group_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.box{
+    width: 25rem;
+    height: 25rem;
+    margin: 3em;
+    text-align: center;
+}
+.img{
+    width:50px;
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+}
+#parallax1{
+    background:url('../img/inaki-del-olmo-NIJuEQw0RKg-unsplash.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.group_matter{
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+
+}
+.matter{
+    margin: 1em;
+    width:30rem;
+    height: 30rem;;
+}
+.matter img{
+    width: 90%;
+}
+.group_teachers{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.teacher{
+    
+    width:30rem;
+    height: 30rem;
+    text-align: center;
+}
+.teacher img{
+    width:50%;
+}
+#parallax2{
+    margin-top: 1em;
+    background:url('../img/porter-raab-Ucr4Yp-t364-unsplash.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
+    margin-bottom:1em;
+}
+footer{
+    max-width:1500px;
+    width: 100%;
+    color:white;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+@media all and (max-width:702px) {
+    .group_box{
+        display: block;
+        font-size: 0.98em;
+        text-align: center;
+    }
+    .group_matter{
+        display: block;
+        font-size: 0.98em;
+        text-align: center;
+    }
+    .group_teachers{
+       display: block;
+       font-size: 0.98em;
+       text-align: center;
+    }
+    .box{
+        margin: auto;
+        font-size: 1em;
+    }
+    .matter{
+        margin: auto;
+        font-size: 1em;
+    }
+    .teacher{
+        margin: auto;
+        font-size: 1em;
+    }
+   
+}
+@media all and (max-width:375px){
+    .group_box{
+        width: 100%;
+        
+    }
+    .group_matter{
+        width: 100%;
+        
+    }
+    
+    .group_teachers{
+        width:100%;
+    }
+    #parallax1{
+        width: 100%;
+    }
+    #parallax2{
+        width: 100%;
+    }
+    
+}
